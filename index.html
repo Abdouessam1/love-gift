@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Just For My Rose ❤️</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Background Music -->
+    <audio id="backgroundMusic" loop>
+        <source src="audio/music.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Music Button -->
+    <button id="musicButton" onclick="toggleMusic()">
+        🎵
+    </button>
+
+
+    <!-- HOME -->
+    <section id="home">
+
+        <div class="home-content">
+
+            <p class="small-text">
+                A Little Gift
+            </p>
+
+            <h1>
+                Just For
+                <br>
+                My Rose ❤️
+            </h1>
+
+            <p class="description">
+                I made something special just for you.
+            </p>
+
+            <button class="main-button" onclick="openGift()">
+                Open Your Gift 🎁
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- MEMORIES -->
+    <section id="memories">
+
+        <p class="section-label">
+            Memories
+        </p>
+
+        <h2 class="section-title">
+            Moments Worth Keeping 📸
+        </h2>
+
+        <div class="gallery" id="gallery">
+            <!-- Photos will be added by JavaScript -->
+        </div>
+
+    </section>
+
+
+    <!-- IMAGE VIEWER -->
+    <div class="image-viewer" id="imageViewer">
+
+        <button class="viewer-close" onclick="closeImage()">
+            ×
+        </button>
+
+        <button class="viewer-prev" onclick="previousImage()">
+            ‹
+        </button>
+
+        <img id="viewerImage" src="" alt="Memory">
+
+        <button class="viewer-next" onclick="nextImage()">
+            ›
+        </button>
+
+    </div>
+
+
+    <!-- VIDEO -->
+    <section id="video-section">
+
+        <p class="section-label">
+            A Memory
+        </p>
+
+        <h2 class="section-title">
+            A Little Video 🎬
+        </h2>
+
+        <div class="video-wrapper">
+
+            <video controls>
+                <source src="video/memory.mp4" type="video/mp4">
+                Your browser does not support video.
+            </video>
+
+        </div>
+
+    </section>
+
+
+    <!-- LETTERS -->
+    <section id="letters">
+
+        <p class="section-label">
+            Something For You
+        </p>
+
+        <h2 class="section-title">
+            Open A Letter 💌
+        </h2>
+
+        <div class="letters-grid">
+
+            <div class="letter-card" onclick="openLetter(1)">
+                <div class="letter-icon">
+                    💌
+                </div>
+
+                <h3>
+                    Open Me
+                </h3>
+            </div>
+
+
+            <div class="letter-card" onclick="openLetter(2)">
+                <div class="letter-icon">
+                    💖
+                </div>
+
+                <h3>
+                    One More
+                </h3>
+            </div>
+
+
+            <div class="letter-card" onclick="openLetter(3)">
+                <div class="letter-icon">
+                    💕
+                </div>
+
+                <h3>
+                    For You
+                </h3>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- LETTER MODAL -->
+    <div class="modal" id="letterModal">
+
+        <div class="modal-content">
+
+            <button class="modal-close" onclick="closeLetter()">
+                ×
+            </button>
+
+            <div id="letterMessage"></div>
+
+        </div>
+
+    </div>
+
+
+    <!-- FINAL -->
+    <section id="final">
+
+        <div class="final-card">
+
+            <div class="final-heart">
+                ❤️
+            </div>
+
+            <h2>
+                Love you for ever
+                <br>
+                MARYOMTY
+            </h2>
+
+            <p>
+                I made this little place just for you.
+                <br>
+                I hope it always brings a smile to your face. ✨
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Floating Hearts -->
+    <div class="floating-hearts">
+
+        <span>❤️</span>
+        <span>💕</span>
+        <span>💖</span>
+        <span>❤️</span>
+        <span>💗</span>
+
+    </div>
+
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
