@@ -21,6 +21,18 @@ const photos = [
     "photo16.jpg",
     "photo17.jpg",
     "photo18.jpg",
+    "photo19.jpg",
+    "photo20.jpg",
+    "photo21.jpg",
+    "photo22.jpg",
+    "photo23.jpg",
+    "photo24.jpg",
+    "photo25.jpg",
+    "photo26.jpg",
+    "photo27.jpg",
+    "photo28.jpg",
+    "photo29.jpg",
+    
 
 ];
 
