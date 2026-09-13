@@ -37,7 +37,12 @@ const photos = [
     "photo32.jpg",
     "photo33.jpg",
     "photo34.jpg",
-    
+    "photo35.jpg",
+    "photo36.jpg",
+    "photo37.jpg",
+    "photo38.jpg",
+    "photo39.jpg",
+    "photo40.jpg",
     
 
 ];
