@@ -40,7 +40,7 @@ const photos = [
     "photo35.jpg",
     "photo36.jpg",
     "photo37.jpg",
-    "photo38.jpg",
+    
     "photo39.jpg",
     "photo40.jpg",
     
